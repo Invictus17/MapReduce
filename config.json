@@ -1,0 +1,6 @@
+{
+  "data_store_ip": "localhost",
+  "data_store_port": "8081",
+  "key_store_ip": "localhost",
+  "key_store_port": "8082"
+}
