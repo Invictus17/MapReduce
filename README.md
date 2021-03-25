@@ -34,10 +34,10 @@ $ source .bashrc
 1)	Place your input files in the ./Input directory.
 2)	 Open example.py select the function you want – pas it in as the argument & run. You can define your own mapper & reducer functions.
 
-map-reduce as a library that can be used by other programs to run a map-reduce task.
-A user can import this lib and specify the arguments - Where a user should define the map & reduce functions & pass it to the run() function
-a.	run_object = mapreduce(num_mappers = 5, num_reducers = 5)
-b.	run_object.run(Input_location, mapper_word_count, reduce_word_count)
+map-reduce as a library that can be used by other programs to run a map-reduce task.  
+A user can import this lib and specify the arguments - Where a user should define the map & reduce functions & pass it to the run() function  
+a.	run_object = mapreduce(num_mappers = 5, num_reducers = 5)  
+b.	run_object.run(Input_location, mapper_word_count, reduce_word_count)  
 
 ## 8) Citations:
 https://github.com/gooooloo/grpc-file-transfer for some of the data store functions like upload & download.
